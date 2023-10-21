@@ -1,19 +1,19 @@
-# vue-crash-course
+# Form-widget-editor
 
-This template should help get you started developing with Vue 3 in Vite.
+This form widget editor is developed with Vue 3 in Vite, NodeJS using Express and MongoDB Atlas.
 
 ## Recommended IDE Setup
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+[VSCode](https://code.visualstudio.com/) + MongoDB for VS Code + DotENV
 
 ## Project Setup
 
 ```sh
 npm install
+```
+
+```sh
+npm i -g axios body-parser bootstrap cors dotenv express mongodb mongoose multer vue vue-router
 ```
 
 ### Compile and Hot-Reload for Development
@@ -22,8 +22,8 @@ npm install
 npm run dev
 ```
 
-### Compile and Minify for Production
+### Run Server
 
 ```sh
-npm run build
+npm run start
 ```
